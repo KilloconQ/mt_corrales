@@ -10,7 +10,7 @@ class menu extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Menú', style: GoogleFonts.openSans(fontSize: 25)),
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.green[800],
         ),
         body: buscar(),
         backgroundColor: Colors.white,

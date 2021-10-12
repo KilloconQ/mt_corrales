@@ -56,7 +56,7 @@ class _contactoState extends State<contacto> {
         home: Scaffold(
       appBar: AppBar(
         title: Text('Contáctanos', style: GoogleFonts.openSans(fontSize: 25)),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.green[800],
       ),
       body: Center(
         child: Column(

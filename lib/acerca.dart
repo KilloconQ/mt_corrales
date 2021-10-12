@@ -39,7 +39,7 @@ class acerca extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Quienes somos', style: GoogleFonts.openSans(fontSize: 25)),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.green[800],
       ),
       body: SingleChildScrollView(
           child: Column(children: <Widget>[logo(), descripcion(), sucursal()])),
